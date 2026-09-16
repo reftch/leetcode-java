@@ -1,0 +1,8 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <!-- Project-local settings: intentionally empty (no mirrors).
+       Overrides the user-global ~/.m2/settings.xml which redirects
+       everything to a dead corporate Nexus (nexus.compart.com).
+       With this file, Maven Central (declared in pom.xml) is used directly. -->
+</settings>
