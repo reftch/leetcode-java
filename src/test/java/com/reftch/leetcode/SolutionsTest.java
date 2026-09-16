@@ -1,7 +1,19 @@
 package com.reftch.leetcode;
 
-// TODO: add tests for Solutions
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+/**
+ * Skeleton for {@link Solutions}.
+ */
 class SolutionsTest {
 
-    // TODO: implement tests
+    @Test
+    @DisplayName("Solutions: TODO")
+    void todo() {
+        // TODO: implement
+        // assertThat(Solutions.getName()).isEqualTo("leetcode-java");
+    }
 }
