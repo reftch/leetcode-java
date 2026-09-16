@@ -29,7 +29,7 @@ public final class TwoSumSolution {
     public int[] twoSum(int[] nums, int target) {
         var map = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
+            var complement = target - nums[i];
             var j = map.get(complement);
             if (j != null) {
                 return new int[] { j, i };
